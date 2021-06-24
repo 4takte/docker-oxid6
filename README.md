@@ -1,4 +1,12 @@
-# Docker OXID eShop 6
+# OXID 6  GraphQL 
+
+Updated container version for the OXID API workshop. Just fire up the container - done.
+
+Installs and acitvates some dependencies for GraphQL.
+- oxid-esales/graphql-base
+- oxid-esales/graphql-storefront
+-----
+# Docker Setup
 
 This (linux/osx) setup bootstraps an dockerized developer environment for [OXID eShop 6](https://github.com/OXID-eSales/oxideshop_ce).
 
@@ -8,7 +16,7 @@ This (linux/osx) setup bootstraps an dockerized developer environment for [OXID 
 - MySQL 5.7 container ([Dockerfile](https://github.com/docker-library/mysql/blob/883703dfb30d9c197e0059a669c4bb64d55f6e0d/5.7/Dockerfile))
 - MailHog container ([Dockerfile](https://github.com/mailhog/MailHog/blob/master/Dockerfile))
 - phpMyAdmin container ([Dockerfile](https://hub.docker.com/r/phpmyadmin/phpmyadmin/~/dockerfile/))
-- OXID eShop ([latest 6.2.x](https://github.com/OXID-eSales/oxideshop_metapackage_ce/blob/b-6.2/composer.json))
+- OXID eShop ([latest 6.3.x](https://github.com/OXID-eSales/oxideshop_metapackage_ce/blob/b-6.2/composer.json))
 - OXID demo data
 
 ## Quickstart
@@ -17,7 +25,7 @@ This (linux/osx) setup bootstraps an dockerized developer environment for [OXID 
 3. Fire up container
 ```bash
 # clone repository:
-git clone https://github.com/proudcommerce/docker-oxid6.git docker_oxid6
+git clone https://github.com/4takte/oxid-api-workshop.git docker_oxid6
 cd docker_oxid6
 # create container
 docker-compose build
