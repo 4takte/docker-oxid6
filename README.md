@@ -25,8 +25,9 @@ This (linux/osx) setup bootstraps an dockerized developer environment for [OXID 
 3. Fire up container
 ```bash
 # clone repository:
-git clone https://github.com/4takte/oxid-api-workshop.git docker_oxid6
+git clone https://github.com/4takte/docker-oxid6.git docker_oxid6
 cd docker_oxid6
+git checkout -b graphql
 # create container
 docker-compose build
 # fire up container
